@@ -1,5 +1,14 @@
 # Bingeflix Docs
-This file contains doumentation for Bingeflix data sources.
+This file contains documentation for Bingeflix data sources.
+
+## General
+This section is for documentation that on the Bingeflix source.
+
+{% docs bingeflix_data_source%}
+This source contains tables from the Bingeflix production database
+{% enddocs %}
+
+
 
 ## Users
 This section contains documentation from the Bingeflix users table.
@@ -29,7 +38,7 @@ The username for login to Bingeflix.
 {% enddocs %}
 
 {% docs bingeflix_name %}
-The name of the user.
+The full name of the user (first and last).
 {% enddocs %}
 
 {% docs bingeflix_sex %}
@@ -42,6 +51,14 @@ The user's email address.
 
 {% docs bingeflix_birthdate %}
 The user's birthdate.
+{% enddocs %}
+
+{% docs bingeflix_current_age %}
+The user's current age.
+{% enddocs %}
+
+{% docs bingeflix_age_at_acquisition %}
+The age of the user when they became a Bingeflix user.
 {% enddocs %}
 
 {% docs bingeflix_region %}

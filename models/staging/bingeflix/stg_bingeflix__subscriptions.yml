@@ -13,7 +13,7 @@ models:
           - not_null
 
       - name: starts_at
-        description: '{{ doc(bingeflix_starts_at") }}'
+        description: '{{ doc("bingeflix_starts_at") }}'
         data_tests:
           - not_null
 
