@@ -2,6 +2,11 @@ sources:
   - name: ads_platform
     schema: bingeflix
     database: raw
+    description: '{{ doc("ads_platform_data_source") }}'
     tables:
       - name: daily_ads
         identifier: ads
+        description: '{{ doc("ads_platform_daily_ads_table") }}'
+    freshness:
+      warn_after: {count: 7, period: day}
+      error_after: {count: 7, period: day}

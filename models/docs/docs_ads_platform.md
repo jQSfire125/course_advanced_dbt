@@ -1,6 +1,14 @@
 # Ads Platform Docs
 This file contains documentation for Ads Platform data sources.
 
+## General
+This section is for documentation that on the Bingeflix source.
+
+{% docs ads_platform_data_source%}
+This source contains tables from the Ads Platform source.
+{% enddocs %}
+
+
 ## Ads platform daily ads
 This section contains documentation from the Ads platform daily ads table.
 

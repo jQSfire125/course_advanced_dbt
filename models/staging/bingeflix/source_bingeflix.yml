@@ -3,6 +3,9 @@ sources:
     schema: bingeflix
     description: '{{ doc("bingeflix_data_source") }}'
     database: raw
+    freshness:
+      warn_after: {count: 7, period: day}
+      error_after: {count: 7, period: day}
     tables:
       - name: events
         description: '{{ doc("bingeflix_events_table") }}'
