@@ -69,6 +69,14 @@ Where the user resides (i.e. the state or province).
 Where the user resides.
 {% enddocs %}
 
+{% docs bingeflix_first_subscription_starts_at %}
+Where the user's first subscription started
+{% enddocs %}
+
+{% docs bingeflix_count_of_subscriptions %}
+How many subscriptions the user has.
+{% enddocs %}
+
 
 ## Subscriptions
 This section contains documentation from the Bingeflix subscriptions table.
